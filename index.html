@@ -2,8 +2,55 @@
 <html>
 <head>
     <title>My First Webpage</title>
+
+    <!-- BootStrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
 </head>
+
 <body>
-    Hello World!
+    <div class="container-fluid">
+
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+              </div>
+              <ul class="nav navbar-nav">
+                  <li><a href="#">ABOUT</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        PORTFOLIO <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">ART</li>
+                        <li><a href="#">CODE</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="row">
+        <img src="images/about/chameleon_house.png" class="img-responsive">
+    </div>
+    <!-- BANNER -->
+
+
+
+
+</div><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
