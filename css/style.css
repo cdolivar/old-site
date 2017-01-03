@@ -8,79 +8,79 @@
 
 /* ------------------- NAV BAR (begin) ------------------- */
 /*https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap-3*/
-/* navbar */
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-}
-/* title */
-.navbar-default .navbar-brand {
-    color: white;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
-}
-/* link */
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #1F427A;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: black;
-    background-color: transparent;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-    color: black;
-    background-color: white;
-}
-/* caret */
-.navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: white;
-    border-bottom-color: white;
-}
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #1F427A;
-    border-bottom-color: #1F427A;
-}
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: black;
-    border-bottom-color: black;
-}
-/* mobile version */
-.navbar-default .navbar-toggle {
-    border-color: #DDD;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
-}
-@media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: white;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #1F427A;
-    }
-}
-
-/* ------------------- NAV BAR (end) ------------------- */
 
 .navbar-default {
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 3px; /* kerning */
+  background-color: white;
+  border-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 20px;
+  letter-spacing: 3px; /* kerning */
+  font-size: 15pt !important;
 }
+
+/* -------------------- NAV BAR (end) --------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.banner {
+    min-width: 100%;
+    display: block;
+    padding-top: 15px;
+}
+
+.about {
+    color: white;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    background-color: grey;
+}
+
+a:visited, a:link, a:active
+{
+    color: #FFC95C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.info {
+    color: white;
+    text-align: left;
+    font-size: 15pt;
+    background-color: #0E2B4C;
+    padding: 30px 30px 30px 30px;
+}
+
+.skills {
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.highlight {
+    color: #FFC95C;
+    font-size: 18pt;
+}
+/*
+.headshot {
+    padding: 25px 25px 25px 25px ;
+}*/
+
+.col-sm-6 .headshot {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
