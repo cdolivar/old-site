@@ -72,6 +72,7 @@ a:hover {
 
 .strip2 {
     height: 5px;
+    margin-bottom: 5px;
 }
 /* #FFC95C; yellow */
 /* #0E2B4C; blue */
@@ -148,20 +149,28 @@ a:hover {
 
 .portfolio_box{
     height: 300px;
-    width: 100%;
+    width: 99%;
     display: block;
-    margin: 25px auto 25px auto;
+    margin: 30px 30px 30px 30px;
     border-radius: 25px;
 }
 
-.portfolio_image{
-    width: 100%;
+.portfolio_button {
     height: auto;
+    width: 50%;
+    font-size: 40pt;
+    text-align: center;
+    background-color: #FFC95C; /* yellow */
     border-radius: 20px;
-    margin: 10px 10px 10px 10px;
-    /*padding-top: 20px;
-    padding-bottom: 20px;*/
+}
 
+.portfolio_button:hover {
+    background-color: #FFD276;
+}
+
+.portfolio_text {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .social_media {
@@ -191,6 +200,29 @@ a:hover {
 .background_white {
     background-color: white;
 }
+
+.yellow {
+    color: #FFC95C;
+}
+
+.blue {
+    color: #0E2B4C;
+}
+
+.grey {
+    color: #F4F6FA;
+}
+
+.white {
+    color: white;
+}
+
+.no_padding{
+    padding: 0px 0px 0px 0px;
+}
+
+
 /* #FFC95C; yellow */
+/* #FFD276; light yellow */
 /* #0E2B4C; blue */
 /* #F4F6FA; grey */
