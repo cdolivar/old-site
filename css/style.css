@@ -1,3 +1,10 @@
+/* #FFC95C; yellow */
+/* #0E2B4C; blue */
+/* #F4F6FA; grey */
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 13pt;
+}
 .nav-row{
     height: 50px;
 }
@@ -14,7 +21,7 @@
   border-color: transparent;
   background-image: none;
   background-repeat: no-repeat;
-  font-family: 'Roboto', sans-serif;
+  font-family:'Quicksand', sans-serif;;
   padding-left: 20px;
   letter-spacing: 3px; /* kerning */
   font-size: 15pt !important;
@@ -27,15 +34,17 @@ body {
 .banner {
     min-width: 100%;
     display: block;
-    padding-top: 15px;
+    padding-top: 50px;
+    background-color: #F4F6FA;
 }
 
-.about {
-    color: white;
+.heading {
+    color: #0E2B4C;;
     text-align: center;
     font-size: 25pt;
     font-weight: bold;
-    background-color: grey;
+    background-color: white; /* blue */
+    padding-top: 7px;
 }
 
 a:visited, a:link, a:active
@@ -50,37 +59,138 @@ a:hover {
 }
 
 .info {
-    color: white;
+    color: #0E2B4C;;
     text-align: left;
     font-size: 15pt;
-    background-color: #0E2B4C;
+    background-color: white;
     padding: 30px 30px 30px 30px;
 }
+.strip1 {
+    height: 5px;
+    margin-top: 20px;
+}
+
+.strip2 {
+    height: 5px;
+}
+/* #FFC95C; yellow */
+/* #0E2B4C; blue */
 
 .skills {
-    text-align: left;
+    text-align: center;
+    /*color: grey;*/
+}
+
+.grey {
+    color: grey !important;
+}
+
+.portfolio {
+    background-color: #0E2B4C;
+}
+
+.white {
+    color: white;
 }
 
 .centered {
     text-align: center;
 }
 
-.highlight {
-    color: #FFC95C;
-    font-size: 18pt;
-}
-/*
-.headshot {
-    padding: 25px 25px 25px 25px ;
-}*/
-
-.col-sm-6 .headshot {
-    display: block;
+#resume{
+    width: 30%;
     margin: auto;
 }
 
+#resume:hover{
+    background-color: #D6D3D6;
+}
 
+.highlight {
+    color: #FFC95C; /* yellow */
+    font-size: 18pt;
+    font-weight: bold;
+}
 
+.header {
+    font-size: 18pt;
+    font-weight: bold;
+}
 
+.blank-header {
+    height: 18pt;
+}
 
+.kern {
+    letter-spacing: 5px;
+}
 
+.headshot {
+    display: block;
+    margin: auto;
+    padding: auto;
+    border-radius: 20px;
+}
+
+.resume {
+    background-color: white;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #0E2B4C;
+}
+
+.round-box {
+    background-color: #0E2B4C;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+.portfolio_box{
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: 25px auto 25px auto;
+    border-radius: 25px;
+}
+
+.portfolio_image{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+
+}
+
+.social_media {
+    padding: 10px 10px 10px 10px;
+    color: black;
+    width: 70px;
+    height: 70px;
+}
+
+.footer {
+    background-color: #FFC95C;
+    padding: 5px 20px 5px 20px;
+}
+
+.background_yellow {
+    background-color: #FFC95C;
+}
+
+.background_blue {
+    background-color: #0E2B4C;
+}
+
+.background_grey {
+    background-color: #F4F6FA;
+}
+
+.background_white {
+    background-color: white;
+}
+/* #FFC95C; yellow */
+/* #0E2B4C; blue */
+/* #F4F6FA; grey */
