@@ -38,6 +38,20 @@ body {
     background-color: #F4F6FA;
 }
 
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../images/about/chameleon_blue_white.png');
+  text-align: center;
+  color: white;
+}
+
 .heading {
     color: #0E2B4C;;
     text-align: center;
@@ -72,7 +86,7 @@ a:hover {
 
 .strip2 {
     height: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 /* #FFC95C; yellow */
 /* #0E2B4C; blue */
@@ -130,6 +144,7 @@ a:hover {
     display: block;
     margin: auto;
     padding: auto;
+    margin-bottom: 20px;
     border-radius: 20px;
 }
 
@@ -147,21 +162,18 @@ a:hover {
     padding: 0px 10px 0px 10px;
 }
 
-.portfolio_box{
-    height: 300px;
-    width: 99%;
-    display: block;
-    margin: 30px 30px 30px 30px;
-    border-radius: 25px;
-}
-
 .portfolio_button {
     height: auto;
-    width: 50%;
     font-size: 40pt;
     text-align: center;
     background-color: #FFC95C; /* yellow */
     border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.portfolio_button .col-sm-12 {
+    width: 100%;
+    color: red;
 }
 
 .portfolio_button:hover {
