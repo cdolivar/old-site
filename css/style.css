@@ -21,7 +21,7 @@ body {
   border-color: transparent;
   background-image: none;
   background-repeat: no-repeat;
-  font-family:'Quicksand', sans-serif;;
+  font-family:'Roboto Condensed', sans-serif;;
   padding-left: 20px;
   letter-spacing: 3px; /* kerning */
   font-size: 15pt !important;
@@ -86,7 +86,6 @@ a:hover {
 
 .strip2 {
     height: 5px;
-    margin-bottom: 10px;
 }
 /* #FFC95C; yellow */
 /* #0E2B4C; blue */
@@ -98,10 +97,6 @@ a:hover {
 
 .grey {
     color: grey !important;
-}
-
-.portfolio {
-    background-color: #0E2B4C;
 }
 
 .white {
@@ -162,30 +157,33 @@ a:hover {
     padding: 0px 10px 0px 10px;
 }
 
+.portfolio {
+    height: 100px;
+}
+
 .portfolio_button {
-    height: auto;
-    font-size: 40pt;
-    text-align: center;
-    background-color: #FFC95C; /* yellow */
-    border-radius: 20px;
-    margin-bottom: 10px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.portfolio_button .col-sm-12 {
-    width: 100%;
-    color: red;
+.form-control {
+    font-size: 20pt;
 }
 
-.portfolio_button:hover {
-    background-color: #FFD276;
+.form_padding {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.portfolio_text {
-    display: inline-block;
-    vertical-align: middle;
+.form-group {
+    width: 100% !important;
 }
 
 .social_media {
+    height: 100px;
+    width: auto;
     padding: 10px 10px 10px 10px;
     color: black;
     width: 70px;
@@ -193,7 +191,6 @@ a:hover {
 }
 
 .footer {
-    background-color: #FFC95C;
     padding: 5px 20px 5px 20px;
 }
 

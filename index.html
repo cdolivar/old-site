@@ -10,13 +10,12 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="container-fluid">
-
         <!-- NAV BAR -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -46,6 +45,11 @@
 
     </div>
 
+    <!-- filler -->
+    <div class="row">
+        <div class="col-md-12 background_white" style="height: 30px">
+        </div>
+    </div>
 
     <!-- About -->
     <div class="row">
@@ -62,11 +66,11 @@
 
     <!-- Info -->
     <div class="row info">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-12">
             <p class="blank-header"> </p>
             <img class="headshot img-responsive " src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300">
         </div>
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-12">
             <p class="highlight centered header kern"> hello </p>
             <p>
                 Welcome to my site! My name is Charles but feel free
@@ -96,55 +100,92 @@
         </div>
     </div>
 
+    <!-- filler -->
+    <div class="row">
+        <div class="col-md-12 background_white" style="height: 30px">
+        </div>
+    </div>
+
     <!-- Portfolio -->
-    <div class="row background_yellow">
-        <div class="col-md-12 strip1 background_blue">
-
-        </div>
-        <div class="col-md-12 heading background_yellow">
+    <div class="row background_grey">
+        <div class="col-md-12 heading background_grey">
             <p class="kern blue"> PORTFOLIO </p>
-        </div>
-        <div class="col-md-12 strip2 background_blue">
-
         </div>
     </div>
     <!-- portfolio buttons -->
-    <div class="row background_yellow">
-        <div class="col-md-6 col-sm-12 portfolio_button">
-            <p class="white kern portfolio_text"> ART </p>
+    <div class="row text-center portfolio background_grey">
+        <div class="col-md-6">
+            <button type="button portfolio_button" class="btn ">[Art]</button>
         </div>
-        <div class="col-md-6 col-sm-12 portfolio_button">
-            <p class="white kern portfolio_text"> CODE </p>
+        <div class="cold-md-6">
+            <button type="button portfolio_button" class="btn ">[Code]</button>
         </div>
     </div>
 
     <!-- contact -->
-    <div class="row contact">
-    <div class="row background_blue">
-            <div class="col-md-12 strip1 background_white">
+    <div class="row contact background_yellow">
+        <div class="col-md-12 strip1 background_blue"></div>
+        <div class="col-md-12 heading yellow background_yellow">
+            <p class="blue kern"> CONTACT </p>
+        </div>
+        <div class="col-md-12 strip2 background_blue"></div>
+    </div>
 
-            </div>
-            <div class="col-md-12 heading yellow background_blue">
-                <p class="white kern"> CONTACT </p>
-            </div>
-            <div class="col-md-12 strip2 background_white">
+    <!-- form -->
 
-            </div>
+    <!-- filler -->
+    <div class="row">
+        <div class="col-md-12 background_yellow" style="height: 30px">
         </div>
     </div>
 
+    <!-- name / email -->
+    <div class="row background_yellow form_padding">
+        <div class="col-md-6 no_padding">
+            <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+        </div>
+        <div class="col-md-6 no_padding">
+            <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+        </div>
+    </div>
 
-    <!-- footer -->
+    <!-- filler -->
+    <div class="row">
+        <div class="col-md-12 background_yellow" style="height: 40px">
+        </div>
+    </div>
 
-    <div class="col-md-12 footer" align="right">
+    <!-- message -->
+    <div class="row background_yellow form_padding">
+        <div class="col-md-12 no_padding">
+            <div class="form-group">
+              <textarea class="form-control" rows="6" placeholder="Message" id="comment"></textarea>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- filler -->
+    <div class="row">
+        <div class="col-md-12 background_yellow" style="height: 40px">
+        </div>
+    </div>
+
+  <!-- footer -->
+  <div class="row">
+    <div class="col-md-12 footer background_blue" align="right">
         <img src="images/footer/github.png" class="social_media">
     </a>
     <img src="images/footer/linked_in.png" class="social_media">
-</div>
+    </div>
+  </div>
 </div>
 
+</div>
 
-</div><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
